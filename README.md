@@ -9,6 +9,7 @@ LifeSize remote buttons decoded for use in Arduino
 
 * Used https://github.com/z3t0/Arduino-IRremote to detect pulses and their widths
 * Used a digital scope to view the pulses and measure their timings
+* Found that the remote doesn't use a standard (known) encoding.
 
 Here is the pulses when zero button is pressed.
 
@@ -23,7 +24,7 @@ Notice there are 36 pulses
 * Bit 1: mid-low (1200-1600) ms -> long-high (2500) ms
 * Bit 0: mid-low (1200-1600) ms -> short-high (800-900) ms
 
-From watching this video https://www.youtube.com/watch?v=BUvFGTxZBG8 I guessed that a one is indicated by a long high whereas a zero is indicated by a short high pulse. This somewhat follows the NEC IR protocol.
+From watching this video https://www.youtube.com/watch?v=BUvFGTxZBG8 I guessed that a one is indicated by a long high whereas a zero is indicated by a short high pulse. This somewhat follows the NEC IR protocol. Technically it doesn't matter which pulses are representing zero and which are one as long as you're staying consistent in the code.
 
 For example for button zero as shown above
 
