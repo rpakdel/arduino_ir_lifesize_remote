@@ -21,5 +21,8 @@
     <ClInclude Include="__vm\.arduino_ir_lifesize_remote.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="lifesize-buttons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
