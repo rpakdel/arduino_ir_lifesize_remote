@@ -26,7 +26,10 @@ For example for button zero as shown above
 
 start 1001,1000,1100,0001 stop
 
-
 I also found that each button sends 2 different codes
+
+The codes are stored as hex in lifesize-button.h. For example button zero is 0x98C1.
+
+
 
 
