@@ -24,7 +24,7 @@ Notice there are 36 pulses
 
 For example for button zero as shown above
 
-start 1001,1000,1100,0010 stop
+start 1001,1000,1100,0001 stop
 
 
 I also found that each button sends 2 different codes
