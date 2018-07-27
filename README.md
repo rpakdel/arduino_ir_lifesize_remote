@@ -15,12 +15,12 @@ For example, here is the pulses when zero button is pressed.
 ![Zero button pulses](/Button-zero-pulses.PNG?raw=true)
 
 Notice there are 36 pulses
-* Start indicator pulses: low (2600-2700) ms, high (2300-2400) ms (2 pulses)
-* Stop pulse: low (1200-1400) ms (35th pulse)
+* Start indicator pulses: low (2600-2800) ms, high (2300-2600) ms (2 pulses)
+* Stop pulse: low (1200-1600) ms (35th pulse)
 * There are 32 pulses between pulse 3 to 35
 * Each pair of pulses forms a bit => 16 bit value
-* Bit 1: mid-low (1200-1400) ms -> long-high (2500) ms
-* Bit 0: mid-low (1200-1400) ms -> short-high (800-900) ms
+* Bit 1: mid-low (1200-1600) ms -> long-high (2500) ms
+* Bit 0: mid-low (1200-1600) ms -> short-high (800-900) ms
 
 For example for button zero as shown above
 
