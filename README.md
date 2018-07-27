@@ -7,10 +7,10 @@ LifeSize remote buttons decoded for use in Arduino
 
 # Decoding
 
-* Used https://github.com/z3t0/Arduino-IRremote to detect pulse widths
-* Used a digital scope to view the pulses and measure their timing
+* Used https://github.com/z3t0/Arduino-IRremote to detect pulses and their widths
+* Used a digital scope to view the pulses and measure their timings
 
-For example, here is the pulses when zero button is pressed.
+Here is the pulses when zero button is pressed.
 
 ![Zero button pulses](/Button-zero-pulses.PNG?raw=true)
 
