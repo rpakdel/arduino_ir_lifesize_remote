@@ -1,5 +1,8 @@
-# arduino_ir_lifesize_remote
-LifeSize remote buttons decoded for use in Arduino
+# LifeSize Remote Decoded (for use with Arduino)
+
+Rescued a LifeSize remote from reclycing so that I can use it with my own projects.
+
+![LifeSize Remote](/s-l1600.jpg?raw=true)
 
 # Setup
 
