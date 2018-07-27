@@ -1,0 +1,10 @@
+pulses
+start: low (2600-2700), high (2300-2400)
+1: low (1200-1400) -> long-high (2500)
+0: low (1200-1400) -> short-high (800-900)
+stop: low (1200-1400)
+
+Buttons
+0: start 1001,1000,1100,0010 stop
+1: start 1001,1000,1100,0100 stop
+2: start 1001,1000,1100,1000 stop
